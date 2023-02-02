@@ -6,7 +6,7 @@ name: FTP Deployer
     port: 21 # optional, default is: 21
     username: ${{ secrets.FTP_USERNAME }} # FTP username
     password: ${{ secrets.FTP_PASSWORD }} # FTP password
-    remote_folder: ${{ secrets.FTP_REMOTE_FOLDER }} # optional, remote path of your FTP server
+    # remote_folder: ${{ secrets.FTP_REMOTE_FOLDER }} # optional, remote path of your FTP server
     local_folder: dist # optional, local path, default is: dist
     cleanup: false # optional, remove existing files inside FTP remote folder
     include: '[]' # optional, e.g. '['dist']'
