@@ -8,7 +8,7 @@ jobs:
       - name: 🚚 Get latest code
         uses: actions/checkout@v3
 
-      - name: 📂 Sync files
+      - name: FTP Deployer
         uses: sand4rt/ftp-deployer@v1.7
         with:
           sftp: false # optional
